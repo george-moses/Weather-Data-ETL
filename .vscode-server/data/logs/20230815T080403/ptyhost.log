@@ -1,0 +1,76 @@
+2023-08-15 08:04:08.310 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n\tfi\nfi\nexit 0"]
+2023-08-15 08:04:08.337 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n\tfi\nfi\nexit 0"]
+2023-08-15 08:04:08.352 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n\tfi\nfi\nexit 0"]
+2023-08-15 08:04:08.417 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n\tfi\nfi\nexit 0"]
+2023-08-15 08:07:12.980 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 08:07:14.801 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n\tfi\nfi\nexit 0"]
+2023-08-15 08:07:14.836 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n\tfi\nfi\nexit 0"]
+2023-08-15 08:07:14.946 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n\tfi\nfi\nexit 0"]
+2023-08-15 08:07:14.956 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n\tfi\nfi\nexit 0"]
+2023-08-15 08:11:07.248 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 08:11:09.540 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n\tfi\nfi\nexit 0"]
+2023-08-15 08:11:09.602 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n\tfi\nfi\nexit 0"]
+2023-08-15 08:11:09.631 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n\tfi\nfi\nexit 0"]
+2023-08-15 08:11:09.649 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n\tfi\nfi\nexit 0"]
+2023-08-15 09:45:31.014 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-15 09:45:31.036 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 09:45:31.036 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 09:45:31.036 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-15 09:45:31.036 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 09:45:31.071 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 09:45:31.267 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-15 09:45:31.358 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 09:45:31.361 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 09:45:31.382 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-15 09:45:31.390 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 09:45:31.398 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 09:45:31.438 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-15 09:45:31.441 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 09:45:31.442 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 09:45:31.489 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-15 09:45:31.494 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 09:45:31.505 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 09:45:31.537 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-15 09:45:31.541 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 09:45:31.563 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-15 09:45:31.571 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 09:45:31.658 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-15 09:45:31.672 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 09:45:31.687 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 09:46:19.892 [info] Expanding terminal instance, old id 99b2037422db7f2c209aca382b7d9557-13 -> new id undefined
+2023-08-15 09:46:19.893 [info] Expanding terminal instance, old id 99b2037422db7f2c209aca382b7d9557-14 -> new id undefined
+2023-08-15 09:46:23.706 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n\tfi\nfi\nexit 0"]
+2023-08-15 09:46:23.725 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n\tfi\nfi\nexit 0"]
+2023-08-15 09:46:23.729 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n\tfi\nfi\nexit 0"]
+2023-08-15 09:46:23.770 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n\tfi\nfi\nexit 0"]
+2023-08-15 09:46:25.574 [warning] Persistent process "13": Process had no disconnect runners but was an orphan
+2023-08-15 09:46:25.575 [info] Persistent process reconnection "13"
+2023-08-15 09:46:25.576 [warning] Persistent process "14": Process had no disconnect runners but was an orphan
+2023-08-15 09:46:25.576 [info] Persistent process reconnection "14"
+2023-08-15 09:46:25.823 [info] Persistent process "13": Replaying 10204 chars and 1 size events
+2023-08-15 09:46:25.891 [info] Persistent process "14": Replaying 3335 chars and 1 size events
+2023-08-15 10:00:46.546 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-15 10:00:46.550 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 10:00:46.599 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 10:00:46.924 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-15 10:00:46.926 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 10:00:46.947 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 10:00:54.812 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 10:05:46.934 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-15 10:05:46.944 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 10:05:47.005 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 10:05:47.250 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-15 10:05:47.282 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 10:05:47.443 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 10:05:47.524 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-15 10:05:47.558 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 10:05:47.601 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-15 10:05:47.607 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 10:05:47.662 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-15 10:05:47.669 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 10:05:47.687 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-15 10:05:47.691 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 10:05:47.766 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 10:05:47.787 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-15 10:05:47.851 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-15 10:16:51.967 [info] Expanding terminal instance, old id 99b2037422db7f2c209aca382b7d9557-13 -> new id undefined

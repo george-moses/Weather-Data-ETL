@@ -1,0 +1,382 @@
+2023-08-16 01:42:00.755 [info] Extension host with pid 1920 started
+2023-08-16 01:42:00.802 [error] Error: EEXIST: file already exists, open '/home/ubuntu/.vscode-server/data/User/workspaceStorage/99b2037422db7f2c209aca382b7d9557/vscode.lock'
+2023-08-16 01:42:00.831 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/99b2037422db7f2c209aca382b7d9557/vscode.lock': Could not acquire lock, checking if the file is stale.
+2023-08-16 01:42:00.863 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/99b2037422db7f2c209aca382b7d9557/vscode.lock': The pid 2221 appears to be gone.
+2023-08-16 01:42:00.863 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/99b2037422db7f2c209aca382b7d9557/vscode.lock': Deleting a stale lock.
+2023-08-16 01:42:00.877 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/99b2037422db7f2c209aca382b7d9557/vscode.lock': Lock acquired.
+2023-08-16 01:42:01.026 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-16 01:42:01.335 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-16 01:42:01.532 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-16 01:42:01.532 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-16 01:42:06.677 [info] Eager extensions activated
+2023-08-16 01:42:06.677 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-16 01:42:06.678 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-16 01:44:18.808 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.flake8
+2023-08-16 01:44:19.558 [info] ExtensionService#_doActivateExtension ms-python.flake8, startup: false, activationEvent: 'onLanguage:python'
+2023-08-16 01:44:19.559 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2023-08-16 01:49:42.612 [error] [ms-python.python] provider FAILED
+2023-08-16 01:49:42.627 [error] TypeError: Cannot read properties of undefined (reading 'data')
+	at /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.20/dist/extension.bundle.js:1:71101
+	at _0x272595 (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.20/dist/extension.bundle.js:1:82916)
+	at runNextTicks (node:internal/process/task_queues:61:5)
+	at processImmediate (node:internal/timers:437:9)
+	at async ce.provideCompletionItems (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:105:50188)
+2023-08-16 01:49:45.157 [error] [ms-python.python] provider FAILED
+2023-08-16 01:49:45.159 [error] TypeError: Cannot read properties of undefined (reading 'data')
+	at /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.20/dist/extension.bundle.js:1:71101
+	at _0x272595 (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.20/dist/extension.bundle.js:1:82916)
+	at async ce.provideCompletionItems (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:105:50188)
+2023-08-16 01:49:45.642 [error] [ms-python.python] provider FAILED
+2023-08-16 01:49:45.642 [error] TypeError: Cannot read properties of undefined (reading 'data')
+	at /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.20/dist/extension.bundle.js:1:71101
+	at _0x272595 (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.20/dist/extension.bundle.js:1:82916)
+	at async ce.provideCompletionItems (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:105:50188)
+2023-08-16 01:53:10.241 [info] Extension host terminating: received terminate message from renderer
+2023-08-16 01:53:10.245 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/99b2037422db7f2c209aca382b7d9557/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-08-16 01:53:10.365 [error] Canceled: Canceled
+	at Object.I [as $4] (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4817
+	at Array.forEach (<anonymous>)
+	at t.dispose (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4782)
+	at r.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:117:7818)
+	at s.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:121:1506)
+	at C (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:32254)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:30301)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at y.fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+	at n.z (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16996)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16401)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at r.acceptChunk (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:11705)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:10992)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at f.u (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:19077) setContext undefined
+2023-08-16 01:53:10.366 [error] Canceled: Canceled
+	at Object.I [as $4] (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4817
+	at Array.forEach (<anonymous>)
+	at t.dispose (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4782)
+	at r.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:117:7818)
+	at s.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:121:1506)
+	at C (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:32254)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:30301)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at y.fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+	at n.z (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16996)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16401)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at r.acceptChunk (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:11705)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:10992)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at f.u (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:19077) setContext undefined
+2023-08-16 01:53:10.366 [error] Canceled: Canceled
+	at Object.I [as $4] (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4817
+	at Array.forEach (<anonymous>)
+	at t.dispose (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4782)
+	at r.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:117:7818)
+	at s.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:121:1506)
+	at C (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:32254)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:30301)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at y.fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+	at n.z (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16996)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16401)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at r.acceptChunk (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:11705)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:10992)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at f.u (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:19077) setContext undefined
+2023-08-16 01:53:10.368 [error] Canceled: Canceled
+	at Object.I [as $4] (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4817
+	at Array.forEach (<anonymous>)
+	at t.dispose (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4782)
+	at r.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:117:7818)
+	at s.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:121:1506)
+	at C (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:32254)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:30301)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at y.fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+	at n.z (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16996)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16401)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at r.acceptChunk (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:11705)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:10992)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at f.u (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:19077) setContext undefined
+2023-08-16 01:53:10.368 [error] Canceled: Canceled
+	at Object.I [as $4] (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4817
+	at Array.forEach (<anonymous>)
+	at t.dispose (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4782)
+	at r.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:117:7818)
+	at s.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:121:1506)
+	at C (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:32254)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:30301)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at y.fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+	at n.z (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16996)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16401)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at r.acceptChunk (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:11705)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:10992)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at f.u (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:19077) setContext undefined
+2023-08-16 01:53:10.369 [error] Canceled: Canceled
+	at Object.I [as $4] (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4817
+	at Array.forEach (<anonymous>)
+	at t.dispose (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4782)
+	at r.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:117:7818)
+	at s.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:121:1506)
+	at C (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:32254)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:30301)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at y.fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+	at n.z (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16996)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16401)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at r.acceptChunk (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:11705)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:10992)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at f.u (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:19077) setContext undefined
+2023-08-16 01:53:10.370 [error] Canceled: Canceled
+	at Object.I [as $4] (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4817
+	at Array.forEach (<anonymous>)
+	at t.dispose (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4782)
+	at r.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:117:7818)
+	at s.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:121:1506)
+	at C (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:32254)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:30301)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at y.fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+	at n.z (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16996)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16401)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at r.acceptChunk (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:11705)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:10992)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at f.u (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:19077) setContext undefined
+2023-08-16 01:53:10.372 [error] Canceled: Canceled
+	at Object.I [as $4] (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4817
+	at Array.forEach (<anonymous>)
+	at t.dispose (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4782)
+	at r.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:117:7818)
+	at s.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:121:1506)
+	at C (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:32254)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:30301)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at y.fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+	at n.z (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16996)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16401)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at r.acceptChunk (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:11705)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:10992)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at f.u (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:19077) setContext undefined
+2023-08-16 01:53:10.372 [error] Canceled: Canceled
+	at Object.I [as $4] (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4817
+	at Array.forEach (<anonymous>)
+	at t.dispose (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4782)
+	at r.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:117:7818)
+	at s.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:121:1506)
+	at C (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:32254)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:30301)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at y.fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+	at n.z (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16996)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16401)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at r.acceptChunk (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:11705)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:10992)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at f.u (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:19077) setContext undefined
+2023-08-16 01:53:10.373 [error] Canceled: Canceled
+	at Object.I [as $4] (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4817
+	at Array.forEach (<anonymous>)
+	at t.dispose (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4782)
+	at r.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:117:7818)
+	at s.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:121:1506)
+	at C (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:32254)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:30301)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at y.fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+	at n.z (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16996)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16401)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at r.acceptChunk (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:11705)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:10992)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at f.u (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:19077) setContext undefined
+2023-08-16 01:53:10.373 [error] Canceled: Canceled
+	at Object.I [as $4] (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4817
+	at Array.forEach (<anonymous>)
+	at t.dispose (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4782)
+	at r.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:117:7818)
+	at s.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:121:1506)
+	at C (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:32254)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:30301)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at y.fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+	at n.z (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16996)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16401)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at r.acceptChunk (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:11705)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:10992)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at f.u (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:19077) setContext undefined
+2023-08-16 01:53:10.374 [error] Canceled: Canceled
+	at Object.I [as $4] (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4817
+	at Array.forEach (<anonymous>)
+	at t.dispose (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4782)
+	at r.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:117:7818)
+	at s.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:121:1506)
+	at C (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:32254)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:30301)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at y.fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+	at n.z (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16996)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16401)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at r.acceptChunk (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:11705)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:10992)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at f.u (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:19077) setContext undefined
+2023-08-16 01:53:10.375 [error] Canceled: Canceled
+	at Object.I [as $4] (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4817
+	at Array.forEach (<anonymous>)
+	at t.dispose (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4782)
+	at r.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:117:7818)
+	at s.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:121:1506)
+	at C (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:32254)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:30301)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at y.fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+	at n.z (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16996)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16401)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at r.acceptChunk (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:11705)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:10992)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at f.u (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:19077) setContext undefined
+2023-08-16 01:53:10.376 [error] Canceled: Canceled
+	at Object.I [as $4] (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4817
+	at Array.forEach (<anonymous>)
+	at t.dispose (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4782)
+	at r.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:117:7818)
+	at s.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:121:1506)
+	at C (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:32254)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:30301)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at y.fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+	at n.z (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16996)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16401)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at r.acceptChunk (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:11705)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:10992)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at f.u (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:19077) setContext undefined
+2023-08-16 01:53:10.377 [error] Canceled: Canceled
+	at Object.I [as $4] (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4817
+	at Array.forEach (<anonymous>)
+	at t.dispose (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4782)
+	at r.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:117:7818)
+	at s.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:121:1506)
+	at C (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:32254)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:30301)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at y.fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+	at n.z (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16996)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16401)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at r.acceptChunk (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:11705)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:10992)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at f.u (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:19077) setContext undefined
+2023-08-16 01:53:10.380 [error] Canceled: Canceled
+	at Object.I [as $4] (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4817
+	at Array.forEach (<anonymous>)
+	at t.dispose (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4782)
+	at r.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:117:7818)
+	at s.terminate (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:121:1506)
+	at C (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:32254)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:30301)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at y.fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+	at n.z (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16996)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16401)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at r.acceptChunk (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:11705)
+	at r.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:10992)
+	at f.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at f.u (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:19077) setContext undefined
+2023-08-16 01:53:12.364 [error] Error: Stopping the server timed out
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2064115
+	at async Object.stop (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.20/dist/extension.bundle.js:1:106052)
+	at async _0x32b891.<computed>._stopClient (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.20/dist/extension.bundle.js:1:49473)
+	at async _0x32b891.<computed>._createNewRequest (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.20/dist/extension.bundle.js:1:49066)
+2023-08-16 01:53:12.364 [error] Error: Stopping the server timed out
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2064115
+	at async Object.stop (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.20/dist/extension.bundle.js:1:106052)
+	at async _0x32b891.<computed>._stopClient (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.20/dist/extension.bundle.js:1:49473)
+	at async _0x32b891.<computed>._createNewRequest (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.20/dist/extension.bundle.js:1:49066)
+2023-08-16 01:53:12.364 [info] Extension host with pid 1920 exiting with code 0

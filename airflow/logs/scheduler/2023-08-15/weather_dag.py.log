@@ -1,0 +1,116 @@
+[2023-08-15T09:38:49.546+0000] {processor.py:157} INFO - Started process (PID=6606) to work on /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:38:49.547+0000] {processor.py:826} INFO - Processing file /home/ubuntu/airflow/dags/weather_dag.py for tasks to queue
+[2023-08-15T09:38:49.548+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:38:49.547+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:38:49.581+0000] {processor.py:836} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:38:49.825+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:38:49.825+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:weather_dag
+[2023-08-15T09:38:49.839+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:38:49.839+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:weather_dag
+[2023-08-15T09:38:49.850+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:38:49.849+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:weather_dag
+[2023-08-15T09:38:51.961+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:38:51.225+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T09:38:58.068+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:38:58.022+0000] {dag.py:2763} INFO - Creating ORM DAG for weather_dag
+[2023-08-15T09:38:58.096+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:38:58.096+0000] {dag.py:3504} INFO - Setting next_dagrun for weather_dag to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T09:38:58.148+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags/weather_dag.py took 8.606 seconds
+[2023-08-15T09:45:55.233+0000] {processor.py:157} INFO - Started process (PID=8533) to work on /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:45:55.234+0000] {processor.py:826} INFO - Processing file /home/ubuntu/airflow/dags/weather_dag.py for tasks to queue
+[2023-08-15T09:45:55.235+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:45:55.234+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:45:55.243+0000] {processor.py:836} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:45:55.389+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:45:55.388+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T09:45:55.409+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:45:55.409+0000] {dag.py:3504} INFO - Setting next_dagrun for weather_dag to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T09:45:55.439+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags/weather_dag.py took 0.210 seconds
+[2023-08-15T09:46:42.167+0000] {processor.py:157} INFO - Started process (PID=8916) to work on /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:46:42.174+0000] {processor.py:826} INFO - Processing file /home/ubuntu/airflow/dags/weather_dag.py for tasks to queue
+[2023-08-15T09:46:42.175+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:46:42.174+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:46:42.217+0000] {processor.py:836} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:46:42.358+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:46:42.358+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T09:46:42.513+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:46:42.513+0000] {dag.py:3504} INFO - Setting next_dagrun for weather_dag to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T09:46:42.640+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags/weather_dag.py took 0.490 seconds
+[2023-08-15T09:47:15.142+0000] {processor.py:157} INFO - Started process (PID=8944) to work on /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:47:15.144+0000] {processor.py:826} INFO - Processing file /home/ubuntu/airflow/dags/weather_dag.py for tasks to queue
+[2023-08-15T09:47:15.145+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:47:15.145+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:47:15.155+0000] {processor.py:836} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:47:15.174+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:47:15.174+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T09:47:15.199+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:47:15.199+0000] {dag.py:3504} INFO - Setting next_dagrun for weather_dag to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T09:47:15.223+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags/weather_dag.py took 0.084 seconds
+[2023-08-15T09:47:49.970+0000] {processor.py:157} INFO - Started process (PID=8981) to work on /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:47:49.971+0000] {processor.py:826} INFO - Processing file /home/ubuntu/airflow/dags/weather_dag.py for tasks to queue
+[2023-08-15T09:47:49.972+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:47:49.972+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:47:49.981+0000] {processor.py:836} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:47:50.000+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:47:50.000+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T09:47:50.025+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:47:50.025+0000] {dag.py:3504} INFO - Setting next_dagrun for weather_dag to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T09:47:50.049+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags/weather_dag.py took 0.083 seconds
+[2023-08-15T09:48:23.557+0000] {processor.py:157} INFO - Started process (PID=9015) to work on /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:48:23.558+0000] {processor.py:826} INFO - Processing file /home/ubuntu/airflow/dags/weather_dag.py for tasks to queue
+[2023-08-15T09:48:23.559+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:48:23.559+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:48:23.567+0000] {processor.py:836} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:48:23.587+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:48:23.587+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T09:48:23.610+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:48:23.609+0000] {dag.py:3504} INFO - Setting next_dagrun for weather_dag to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T09:48:23.633+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags/weather_dag.py took 0.080 seconds
+[2023-08-15T09:48:58.490+0000] {processor.py:157} INFO - Started process (PID=9058) to work on /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:48:58.492+0000] {processor.py:826} INFO - Processing file /home/ubuntu/airflow/dags/weather_dag.py for tasks to queue
+[2023-08-15T09:48:58.493+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:48:58.493+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:48:58.502+0000] {processor.py:836} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:48:58.522+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:48:58.522+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T09:48:58.546+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:48:58.546+0000] {dag.py:3504} INFO - Setting next_dagrun for weather_dag to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T09:48:58.572+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags/weather_dag.py took 0.085 seconds
+[2023-08-15T09:49:32.091+0000] {processor.py:157} INFO - Started process (PID=9096) to work on /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:49:32.093+0000] {processor.py:826} INFO - Processing file /home/ubuntu/airflow/dags/weather_dag.py for tasks to queue
+[2023-08-15T09:49:32.094+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:49:32.094+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:49:32.102+0000] {processor.py:836} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:49:32.122+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:49:32.122+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T09:49:32.145+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:49:32.145+0000] {dag.py:3504} INFO - Setting next_dagrun for weather_dag to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T09:49:32.167+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags/weather_dag.py took 0.079 seconds
+[2023-08-15T09:54:39.905+0000] {processor.py:157} INFO - Started process (PID=9468) to work on /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:54:39.908+0000] {processor.py:826} INFO - Processing file /home/ubuntu/airflow/dags/weather_dag.py for tasks to queue
+[2023-08-15T09:54:39.909+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:54:39.909+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:54:39.939+0000] {processor.py:836} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:54:39.968+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:54:39.968+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T09:54:39.991+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:54:39.991+0000] {dag.py:3504} INFO - Setting next_dagrun for weather_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15T09:54:40.024+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags/weather_dag.py took 0.130 seconds
+[2023-08-15T09:59:55.072+0000] {processor.py:157} INFO - Started process (PID=9741) to work on /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:59:55.074+0000] {processor.py:826} INFO - Processing file /home/ubuntu/airflow/dags/weather_dag.py for tasks to queue
+[2023-08-15T09:59:55.075+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:59:55.074+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:59:55.107+0000] {processor.py:836} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T09:59:55.146+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:59:55.146+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T09:59:55.176+0000] {logging_mixin.py:150} INFO - [2023-08-15T09:59:55.176+0000] {dag.py:3504} INFO - Setting next_dagrun for weather_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15T09:59:55.206+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags/weather_dag.py took 0.137 seconds
+[2023-08-15T10:24:37.630+0000] {processor.py:157} INFO - Started process (PID=1726) to work on /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T10:24:37.651+0000] {processor.py:826} INFO - Processing file /home/ubuntu/airflow/dags/weather_dag.py for tasks to queue
+[2023-08-15T10:24:37.652+0000] {logging_mixin.py:150} INFO - [2023-08-15T10:24:37.652+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T10:24:37.744+0000] {processor.py:836} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T10:24:37.816+0000] {logging_mixin.py:150} INFO - [2023-08-15T10:24:37.815+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T10:24:37.991+0000] {logging_mixin.py:150} INFO - [2023-08-15T10:24:37.991+0000] {dag.py:3504} INFO - Setting next_dagrun for weather_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15T10:24:38.226+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags/weather_dag.py took 0.610 seconds
+[2023-08-15T10:38:07.588+0000] {processor.py:157} INFO - Started process (PID=1231) to work on /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T10:38:07.591+0000] {processor.py:826} INFO - Processing file /home/ubuntu/airflow/dags/weather_dag.py for tasks to queue
+[2023-08-15T10:38:07.597+0000] {logging_mixin.py:150} INFO - [2023-08-15T10:38:07.591+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T10:38:07.615+0000] {processor.py:836} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T10:38:07.637+0000] {logging_mixin.py:150} INFO - [2023-08-15T10:38:07.636+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T10:38:07.689+0000] {logging_mixin.py:150} INFO - [2023-08-15T10:38:07.689+0000] {dag.py:3504} INFO - Setting next_dagrun for weather_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15T10:38:07.729+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags/weather_dag.py took 0.144 seconds
+[2023-08-15T10:42:32.707+0000] {processor.py:157} INFO - Started process (PID=1683) to work on /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T10:42:32.711+0000] {processor.py:826} INFO - Processing file /home/ubuntu/airflow/dags/weather_dag.py for tasks to queue
+[2023-08-15T10:42:32.712+0000] {logging_mixin.py:150} INFO - [2023-08-15T10:42:32.712+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T10:42:32.722+0000] {processor.py:836} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T10:42:32.731+0000] {logging_mixin.py:150} INFO - [2023-08-15T10:42:32.731+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T10:42:32.757+0000] {logging_mixin.py:150} INFO - [2023-08-15T10:42:32.757+0000] {dag.py:3504} INFO - Setting next_dagrun for weather_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15T10:42:32.778+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags/weather_dag.py took 0.073 seconds
+[2023-08-15T10:50:07.202+0000] {processor.py:157} INFO - Started process (PID=2644) to work on /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T10:50:07.204+0000] {processor.py:826} INFO - Processing file /home/ubuntu/airflow/dags/weather_dag.py for tasks to queue
+[2023-08-15T10:50:07.205+0000] {logging_mixin.py:150} INFO - [2023-08-15T10:50:07.205+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T10:50:07.216+0000] {processor.py:836} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T10:50:07.230+0000] {logging_mixin.py:150} INFO - [2023-08-15T10:50:07.229+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T10:50:07.255+0000] {logging_mixin.py:150} INFO - [2023-08-15T10:50:07.255+0000] {dag.py:3504} INFO - Setting next_dagrun for weather_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15T10:50:07.277+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags/weather_dag.py took 0.078 seconds
+[2023-08-15T10:59:37.775+0000] {processor.py:157} INFO - Started process (PID=2675) to work on /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T10:59:37.779+0000] {processor.py:826} INFO - Processing file /home/ubuntu/airflow/dags/weather_dag.py for tasks to queue
+[2023-08-15T10:59:37.780+0000] {logging_mixin.py:150} INFO - [2023-08-15T10:59:37.780+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T10:59:37.790+0000] {processor.py:836} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T10:59:37.802+0000] {logging_mixin.py:150} INFO - [2023-08-15T10:59:37.802+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T10:59:37.826+0000] {logging_mixin.py:150} INFO - [2023-08-15T10:59:37.825+0000] {dag.py:3504} INFO - Setting next_dagrun for weather_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15T10:59:37.847+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags/weather_dag.py took 0.075 seconds
+[2023-08-15T11:06:26.558+0000] {processor.py:157} INFO - Started process (PID=1360) to work on /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T11:06:26.567+0000] {processor.py:826} INFO - Processing file /home/ubuntu/airflow/dags/weather_dag.py for tasks to queue
+[2023-08-15T11:06:26.568+0000] {logging_mixin.py:150} INFO - [2023-08-15T11:06:26.567+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T11:06:26.586+0000] {processor.py:836} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-08-15T11:06:26.607+0000] {logging_mixin.py:150} INFO - [2023-08-15T11:06:26.606+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T11:06:26.660+0000] {logging_mixin.py:150} INFO - [2023-08-15T11:06:26.660+0000] {dag.py:3504} INFO - Setting next_dagrun for weather_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15T11:06:26.698+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags/weather_dag.py took 0.143 seconds
