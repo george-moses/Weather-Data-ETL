@@ -9,6 +9,10 @@ This project demonstrates the development and implementation of an automated ETL
 1. [Project Objective](#project-objective)
 2. [Technologies Used](#technologies-used)
 3. [Project Architecture](#project-architecture)
+4. [Key Steps](#key-steps)
+5. [Impact](#impact)
+6. [Usage](#usage)
+7. [Screenshots](#screenshots)
 
 ## Project Objective
 
