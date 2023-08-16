@@ -1,5 +1,6 @@
 # Ignore all directories
 /*/
+airflow/logs/
 
 # Except the 'airflow' directory
 !/airflow/
