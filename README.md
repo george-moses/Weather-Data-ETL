@@ -53,8 +53,8 @@ This project streamlines the process of collecting and storing weather data, red
 
 ## Screenshots
 
-### EC2 Instance
-[![instance.png](https://i.postimg.cc/VsK2wTvV/instance.png)](https://postimg.cc/Dmbxdxqr)
+### Amazon EC2 Instance
+[![instance.png](https://i.postimg.cc/cC5s8LmK/instance.png)](https://postimg.cc/kRKr09L9)
 
 ### Airflow DAG
 [![dag.png](https://i.postimg.cc/8s8RDN6v/dag.png)](https://postimg.cc/GTQ8x0z3)
