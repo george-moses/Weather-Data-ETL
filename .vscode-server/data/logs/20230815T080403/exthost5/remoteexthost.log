@@ -1,7 +1,0 @@
-2023-08-15 10:06:15.097 [info] Extension host with pid 11496 started
-2023-08-15 10:06:15.128 [error] Error: EEXIST: file already exists, open '/home/ubuntu/.vscode-server/data/User/workspaceStorage/99b2037422db7f2c209aca382b7d9557/vscode.lock'
-2023-08-15 10:06:15.149 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/99b2037422db7f2c209aca382b7d9557/vscode.lock': Could not acquire lock, checking if the file is stale.
-2023-08-15 10:06:15.163 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/99b2037422db7f2c209aca382b7d9557/vscode.lock': The lock does not look stale, elapsed: 351 ms, giving up.
-2023-08-15 10:06:15.255 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/99b2037422db7f2c209aca382b7d9557-1/vscode.lock': Lock acquired.
-2023-08-15 10:06:15.700 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
-2023-08-15 10:06:15.762 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.flake8
