@@ -1,7 +1,7 @@
 # Ignore all directories
 /*/
 
-# Except the 'important_data' directory
+# Except the 'airflow' directory
 !/airflow/
 
 .bash_history
