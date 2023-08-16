@@ -1,5 +1,12 @@
 # Ignore all directories
-.aws/
+/*/
 
-# Except the 'airflow' directory
+# Except the 'important_data' directory
+!/airflow/
 
+.bash_history
+.bash_logout
+.bashrc
+.profile
+.sudo_as_admin_successful
+.wget-hsts
