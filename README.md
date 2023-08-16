@@ -51,5 +51,13 @@ This project streamlines the process of collecting and storing weather data, red
 - **Predictive Modeling**: Machine learning models can be trained using historical weather data to predict future weather conditions.
 - **Decision Making**: Businesses can leverage the weather data to make informed decisions related to operations, marketing, and resource allocation.
 
+## Screenshots
 
+### EC2 Instance
+[![instance.png](https://i.postimg.cc/VsK2wTvV/instance.png)](https://postimg.cc/Dmbxdxqr)
 
+### Airflow DAG
+[![dag.png](https://i.postimg.cc/8s8RDN6v/dag.png)](https://postimg.cc/GTQ8x0z3)
+
+### Amazon S3 Bucket with Transformed Data
+[![s3-bucket.png](https://i.postimg.cc/Fs2WsQ4D/s3-bucket.png)](https://postimg.cc/rKNCQ3zr)
