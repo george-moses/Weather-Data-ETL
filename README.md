@@ -31,11 +31,11 @@ The primary objective of this project is to build an end-to-end ETL pipeline tha
 
 The project architecture comprises the following components:
 
-- Amazon EC2 Instance: Hosts the ETL process and Apache Airflow.
-- Apache Airflow: Orchestrates and schedules the ETL tasks.
-- OpenWeatherMap API: Source of real-time weather data.
-- Python Scripts: Responsible for data extraction, transformation, and loading.
-- S3 Bucket: Stores the transformed weather data.
+- **Amazon EC2 Instance:** Hosts the ETL process and Apache Airflow.
+- **Apache Airflow:** Orchestrates and schedules the ETL tasks.
+- **OpenWeatherMap API:** Source of real-time weather data.
+- **Python Scripts:** Responsible for data extraction, transformation, and loading.
+- **S3 Bucket:** Stores the transformed weather data.
 
 ## Key Steps
 
