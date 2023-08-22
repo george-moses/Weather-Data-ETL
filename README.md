@@ -22,7 +22,7 @@ The primary objective of this project is to build an end-to-end ETL pipeline tha
 
 - Amazon EC2
 - Apache Airflow
-- OpenWeatherMap API
+- [OpenWeatherMap API](https://openweathermap.org/api)
 - Python
 - Pandas
 - Amazon S3
