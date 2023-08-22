@@ -58,10 +58,10 @@ This project streamlines the process of collecting and storing weather data, red
 ## Screenshots
 
 ### Amazon EC2 Instance
-[![instance.png](https://i.postimg.cc/cC5s8LmK/instance.png)](https://postimg.cc/kRKr09L9)
+![image](https://github.com/george-moses/Weather-Data-ETL/assets/107324220/16d0814c-d9b7-4f1d-9a6f-9850c6cd48db)
 
 ### Airflow DAG
-[![dag.png](https://i.postimg.cc/8s8RDN6v/dag.png)](https://postimg.cc/GTQ8x0z3)
+![image](https://github.com/george-moses/Weather-Data-ETL/assets/107324220/7c759f55-23f6-47e5-8bba-4b41d8a8863d)
 
 ### Amazon S3 Bucket with Transformed Data
-[![s3-bucket.png](https://i.postimg.cc/Fs2WsQ4D/s3-bucket.png)](https://postimg.cc/rKNCQ3zr)
+![image](https://github.com/george-moses/Weather-Data-ETL/assets/107324220/e43a27b3-baae-472b-84b8-bc886b47c60d)
